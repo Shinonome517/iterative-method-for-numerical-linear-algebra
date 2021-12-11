@@ -1,0 +1,59 @@
+#comment
+
+#executable files
+*.out
+*.exe
+*.html
+*.png
+*.txt
+*.pdf
+*.class
+*.o
+*.gch
+
+#executable folder
+out/
+report4-html/
+materials/
+sorce/
+
+reference/
+test/
+
+
+#hidden files
+.vscode
+
+##test files and folders
+test*
+
+#from https://qiita.com/keitean/items/eb4cb0b454503c2d6ab0
+
+#######
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
