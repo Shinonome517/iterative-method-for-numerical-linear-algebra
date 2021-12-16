@@ -2,6 +2,8 @@
 
 #executable files
 *.out
+*.jpg
+*.JPG
 *.exe
 *.html
 *.png
@@ -20,12 +22,18 @@ sorce/
 reference/
 test/
 
+pictures/
+pictures/*
 
 #hidden files
 .vscode
 
 ##test files and folders
 test*
+
+#exception
+
+!package-list.txt
 
 #from https://qiita.com/keitean/items/eb4cb0b454503c2d6ab0
 
